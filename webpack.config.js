@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     index: "./src/index.js",
     form: "./src/js/components/Form.js",
+    AppBar: "./src/js/components/AppBar.js",
   },
   module: {
     rules: [
