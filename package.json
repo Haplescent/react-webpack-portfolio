@@ -13,8 +13,8 @@
     "url": "git+https://github.com/Haplescent/react-webpack-portfolio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "John Merritt",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Haplescent/react-webpack-portfolio/issues"
   },

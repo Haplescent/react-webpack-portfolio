@@ -2,6 +2,10 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+  entry: {
+    index: "./src/index.js",
+    form: "./src/js/components/Form.js",
+  },
   module: {
     rules: [
       {
