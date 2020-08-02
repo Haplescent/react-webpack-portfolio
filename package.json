@@ -2,11 +2,13 @@
   "name": "react-webpack-portfolio",
   "version": "1.0.0",
   "description": "react-webpack-portfolio for UC Berkeley Assignment",
-  "main": "index.js",
+  "main": "./dist/index.html",
   "scripts": {
     "clean": "rimraf dist",
-    "start": "webpack-dev-server --open --mode development",
+    "start:dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack --mode productionp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -41,6 +43,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }

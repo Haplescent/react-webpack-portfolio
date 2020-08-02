@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import ImageGridList from "./ImageGrid.js";
+import ImageGridList from "./ImageGridList.js";
 import ExpansionPanel from "./ExpansionPanel.js";
 import ProfileCard from "./ProfileCard.js";
 
