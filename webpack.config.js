@@ -4,8 +4,13 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: {
     index: "./src/index.js",
-    form: "./src/js/components/Form.js",
+    Form: "./src/js/components/Form.js",
     AppBar: "./src/js/components/AppBar.js",
+    ExpansionPanel: "./src/js/components/ExpansionPanel.js",
+    Grid: "./src/js/components/Grid.js",
+    ImageGridList: "./src/js/components/ImageGridList.js",
+    ProfileCard: "./src/js/components/ProfileCard.js",
+    tileData: "./src/js/components/tileData.js",
   },
   module: {
     rules: [
