@@ -1,6 +1,9 @@
 {
   "name": "react-webpack-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "react-webpack-portfolio for UC Berkeley Assignment",
   "main": "./dist/index.html",
   "scripts": {
