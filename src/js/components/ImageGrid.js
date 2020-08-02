@@ -6,15 +6,34 @@ import tileData from "./tileData";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    boxSizing: "border-box",
+    flexShrink: 0,
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "space-around",
     overflow: "hidden",
     backgroundColor: theme.palette.background.paper,
   },
-  gridList: {
-    width: 500,
-    height: 450,
+  /* Styles applied to the `div` element that wraps the children. */
+  tile: {
+    position: "relative",
+    display: "block", // In case it's not rendered with a div.
+    height: "100%",
+    overflow: "hidden",
+  },
+  /* Styles applied to an `img` element child, if needed to ensure it covers the tile. */
+  imgFullHeight: {
+    height: "100%",
+    transform: "translateX(-50%)",
+    position: "relative",
+    left: "50%",
+  },
+  /* Styles applied to an `img` element child, if needed to ensure it covers the tile. */
+  imgFullWidth: {
+    width: "100%",
+    position: "relative",
+    transform: "translateY(-50%)",
+    top: "50%",
   },
 }));
 
