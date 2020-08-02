@@ -23,12 +23,12 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={4}>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6}>
           <Paper className={classes.paper}>
             <ImageGridList />
           </Paper>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} md={6}>
           <Paper className={classes.paper}>
             <ProfileCard />
             <br></br>
