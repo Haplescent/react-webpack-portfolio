@@ -70,7 +70,9 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Laboratory Skills</Typography>
+          <Typography className={classes.heading}>
+            Laboratory Skills:
+          </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography align="left">
@@ -78,9 +80,9 @@ export default function SimpleExpansionPanel() {
               <h4>Biochemistry</h4>
               <p>
                 Agarose and SDS-PAGE gel electrophoresis, protein purification,
-                chromatography, spectrophotometry,
-                westernblot,ELISA,mammaliancellcultureandtransfection,AKTA
-                Chromatography,HPLC/UPLC,bioconjugation
+                chromatography, spectrophotometry, westernblot, ELISA, mammalian
+                cell culture and transfection, AKTA Chromatography, HPLC/UPLC,
+                bioconjugation
               </p>
               <h4>Molecular Biology</h4>
               <p>
