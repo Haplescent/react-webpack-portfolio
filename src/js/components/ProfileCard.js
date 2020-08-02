@@ -57,13 +57,9 @@ export default function ProfileReviewCard() {
             src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/34304766_10212205072710943_7918879714737913856_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=t3qYjojBTxgAX-jb9ve&_nc_ht=scontent-sjc3-1.xx&oh=88f7b0e8e9bc82324b7ada2a01d44ec6&oe=5F4AD7D0"
           />
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        action={<IconButton aria-label="settings"></IconButton>}
         title="John Merritt"
-        subheader="Scientist, Traveler, Web Developer"
+        subheader="Scientist, Actor, Web Developer"
       />
       <CardMedia
         className={classes.media}
