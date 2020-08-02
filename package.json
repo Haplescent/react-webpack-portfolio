@@ -11,7 +11,7 @@
     "start:dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production",
     "start": "node server.js",
-    "heroku-postbuild": "webpack --mode productionp",
+    "heroku-postbuild": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
