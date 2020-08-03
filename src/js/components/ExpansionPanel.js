@@ -270,7 +270,7 @@ export default function SimpleExpansionPanel() {
             </h4>
             <p>Summer 2016 Temple Research Symposium</p>
             <h4>
-              Patent: Composition and Methods for Biologyical Delivery Vehicles
+              Patent: Composition and Methods for Biological Delivery Vehicles
             </h4>
             <p>DNAlite Therapeutics, Inc.</p>
           </Typography>
