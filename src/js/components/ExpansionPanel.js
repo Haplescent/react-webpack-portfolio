@@ -52,7 +52,7 @@ export default function SimpleExpansionPanel() {
         <ExpansionPanelDetails>
           <Typography align="left">
             <div>
-              <h4>Web Development:</h4>
+              <h4>Web Development</h4>
               <p>
                 Knowledgable of front end web development languages (HTML, CSS)
                 and programming languages (JavaScript, Python). Used tools such
@@ -70,9 +70,7 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>
-            Laboratory Skills:
-          </Typography>
+          <Typography className={classes.heading}>Laboratory Skills</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography align="left">
