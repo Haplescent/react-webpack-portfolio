@@ -15,6 +15,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import BeachPhoto from "../../images/BeachProfile.jpg"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,7 +55,7 @@ export default function ProfileReviewCard() {
         avatar={
           <Avatar
             alt="John Merritt"
-            src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/34304766_10212205072710943_7918879714737913856_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_ohc=t3qYjojBTxgAX-jb9ve&_nc_ht=scontent-sjc3-1.xx&oh=88f7b0e8e9bc82324b7ada2a01d44ec6&oe=5F4AD7D0"
+            src={BeachPhoto}
           />
         }
         action={<IconButton aria-label="settings"></IconButton>}
@@ -63,7 +64,7 @@ export default function ProfileReviewCard() {
       />
       <CardMedia
         className={classes.media}
-        image="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/10375127_10202496010750462_936394588271677874_n.jpg?_nc_cat=102&_nc_sid=19026a&_nc_ohc=bI-DcAdSnrMAX8lVtnI&_nc_ht=scontent-sjc3-1.xx&oh=9324dadab22dc410594d8011f7664bca&oe=5F4CE513"
+        image={BeachPhoto}
         title="Paella dish"
       />
       <CardContent>
